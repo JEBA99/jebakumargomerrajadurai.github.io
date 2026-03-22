@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* remove default browser margins */
+body {
+    margin: 0;
+}
+
+/* makes anchor scrolling accurate */
+section {
+    scroll-margin-top: 80px;
+}
